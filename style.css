@@ -1,0 +1,190 @@
+@import url("https://use.typekit.net/hib2aay.css");
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: basic-sans, sans-serif;
+    font-weight: 200;
+}
+
+body
+{
+  width: 100dvh;
+  height: 100dvh;  
+}
+
+:root
+{
+    --font-color: #b9b9b9;
+    --main-color: #00585c;
+    --inputs-color: #e8e9eb;
+}
+
+.container
+{
+    width: 100dvw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login
+{
+    width: 835px;
+    height: 611px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.derecha
+{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.izquierda
+{
+    width: 45%;
+    height: 100%;
+    background-color: var(--main-color);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.controles
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
+    position: relative;
+}
+
+.contenedorInputs
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+
+.contenedorInputs :nth-child(1)
+{
+    margin-bottom: 28px;
+}
+
+.inputs
+{
+    width: 100%;
+    height: 45px;
+    background-color: #00585c;
+    position: relative;
+    border-radius: 30px;
+}
+
+.inputs input
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 35px;
+    background-color: var(--inputs-color);
+}
+
+.inputs i
+{
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.contenedorInputs small a
+{
+    color: #919191;
+}
+
+.contenedorInputs small
+{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.controles button
+{
+    margin-top: 30px;
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+small
+{
+    color: #919191;
+    margin-top: 10px;
+}
+
+small a 
+{
+    color: var(--main-color);
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.final
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.final
+{
+    font-size: 1.2rem;
+}
+
+.logo
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo i
+{
+    color: var(--main-color);
+    font-size: 4rem;
+}
+
+.inputs input::placeholder
+{
+    font-size: 1rem;
+    color: var(--font-color);
+}
