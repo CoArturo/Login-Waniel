@@ -120,11 +120,17 @@ body
     left: 12px;
     top: 50%;
     transform: translateY(-50%);
+    transition-duration:.2s;
 }
 
 .contenedorInputs small a
 {
     color: #919191;
+}
+
+.contenedorInputs small a:hover
+{
+    color: var(--main-color);
 }
 
 .contenedorInputs small
